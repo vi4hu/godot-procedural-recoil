@@ -13,7 +13,3 @@ config_version=5
 config/name="godot-procedural-recoil"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.png"
-
-[editor_plugins]
-
-enabled=PackedStringArray("res://addons/procedural-recoil/plugin.cfg")

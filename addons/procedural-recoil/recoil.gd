@@ -1,3 +1,4 @@
+class_name ProceduralRecoil
 extends Node3D
 
 # Rotations
@@ -11,6 +12,7 @@ var targetRotation : Vector3
 @export var aimRecoil : Vector3
 
 @export_category("Settings")
+## Rate at which the current rotation lerps to the target rotation
 @export var snappiness : float
 ## Speed at which the weapon returns to its original position.
 @export var returnSpeed : float
